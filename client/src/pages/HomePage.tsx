@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import CategoryContainer from "../components/CategoryContainer";
 import ServicesContainer from "../components/ServicesContainer";
