@@ -3,13 +3,13 @@ import Footer from "./components/Footer";
 import NavBar from "./components/Navbar";
 
 const App = () => {
-	return (
-		<div>
-			<NavBar />
-			<Outlet />
-			<Footer />
-		</div>
-	);
+  return (
+    <div>
+      <NavBar />
+      <Outlet />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
