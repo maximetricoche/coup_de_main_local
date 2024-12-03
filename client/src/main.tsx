@@ -3,11 +3,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import DirectoryDetails from "./pages/DirectoryDetails";
-import DirectoryPage from "./pages/DirectoryPage";
-import HomePage from "./pages/HomePage";
-import ServicesDetails from "./pages/ServicesDetails";
-import ServicesPage from "./pages/ServicesPage";
+import DirectoryDetails from "./pages/directoryDetails/DirectoryDetails";
+import DirectoryPage from "./pages/directoryPage/DirectoryPage";
+import HomePage from "./pages/homePage/HomePage";
+import ServicesDetails from "./pages/servicesDetails/ServicesDetails";
+import ServicesPage from "./pages/servicesPage/ServicesPage";
 
 /* ************************************************************************* */
 

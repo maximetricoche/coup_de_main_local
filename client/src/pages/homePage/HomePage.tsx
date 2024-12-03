@@ -1,6 +1,6 @@
 import { Carousel } from "react-bootstrap";
-import CategoryContainer from "../components/CategoryContainer";
-import ServicesContainer from "../components/ServicesContainer";
+import CategoryContainer from "../../components/categoryContainer/CategoryContainer";
+import ServicesContainer from "../../components/servicesContainer/ServicesContainer";
 import "./HomePage.css";
 
 const HomePage = () => {
