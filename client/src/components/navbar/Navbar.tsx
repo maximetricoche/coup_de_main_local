@@ -1,6 +1,7 @@
 import type React from "react";
 import logo from "../../assets/images/round_logo.png";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
@@ -30,32 +31,38 @@ const Navbar: React.FC = () => {
         }}
       >
         <li style={{ marginRight: "10px" }}>
-          <button
-            type="button"
-            style={{
-              padding: "10px 20px",
-              borderRadius: "5px",
-              border: "none",
-              backgroundColor: "#FFA07A", // Orange clair
-              color: "white",
-            }}
-          >
-            Annuaire
-          </button>
+          <Link to="/directory">
+            <button
+              type="button"
+              style={{
+                padding: "10px 20px",
+                borderRadius: "5px",
+                border: "none",
+                backgroundColor: "#FFA07A", // Orange clair
+                color: "white",
+                cursor: "pointer",
+              }}
+            >
+              Annuaire
+            </button>
+          </Link>
         </li>
         <li style={{ marginRight: "10px" }}>
-          <button
-            type="button"
-            style={{
-              padding: "10px 20px",
-              borderRadius: "5px",
-              border: "none",
-              backgroundColor: "#FFA07A", // Orange clair
-              color: "white",
-            }}
-          >
-            Annonces
-          </button>
+          <Link to="/services">
+            <button
+              type="button"
+              style={{
+                padding: "10px 20px",
+                borderRadius: "5px",
+                border: "none",
+                backgroundColor: "#FFA07A", // Orange clair
+                color: "white",
+                cursor: "pointer",
+              }}
+            >
+              Annonces
+            </button>
+          </Link>
         </li>
       </ul>
     </nav>
