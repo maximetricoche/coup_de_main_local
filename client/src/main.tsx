@@ -3,16 +3,15 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
+/* ************************************************************************* */
+
+// Import the main app component
+import App from "./App";
 import DirectoryDetails from "./pages/directoryDetails/DirectoryDetails";
 import DirectoryPage from "./pages/directoryPage/DirectoryPage";
 import HomePage from "./pages/homePage/HomePage";
 import ServicesDetails from "./pages/servicesDetails/ServicesDetails";
 import ServicesPage from "./pages/servicesPage/ServicesPage";
-
-/* ************************************************************************* */
-
-// Import the main app component
-import App from "./App";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -26,30 +25,36 @@ import App from "./App";
 // You can add more routes as you build out your app!
 const router = createBrowserRouter([
   {
-    path: "/",
     element: <App />,
     children: [
       {
-        index: true,
+        path: "/",
         element: <HomePage />,
+        loader: () => fetch("http://localhost:3310/api/"),
+      },
+      {
+        path: "/directory",
+        element: <DirectoryPage />,
+        loader: () => fetch("http://localhost:3310/api/directory"),
+      },
+      {
+        path: "/services",
+        element: <ServicesPage />,
+        loader: () => fetch("http://localhost:3310/api/services"),
+      },
+      {
+        path: "/directory/:id",
+        element: <DirectoryDetails />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:3310/api/directory/${params.id}`),
+      },
+      {
+        path: "/services/:id",
+        element: <ServicesDetails />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:3310/api/services/${params.id}`),
       },
     ],
-  },
-  {
-    path: "/directory",
-    element: <DirectoryPage />,
-  },
-  {
-    path: "/services",
-    element: <ServicesPage />,
-  },
-  {
-    path: "/directory/:id",
-    element: <DirectoryDetails />,
-  },
-  {
-    path: "/services/:id",
-    element: <ServicesDetails />,
   },
 ]);
 
