@@ -1,22 +1,11 @@
-import type React from "react";
-import logo from "../assets/images/round_logo.png";
-import "./index.css"; // Assurez-vous d'importer le fichier CSS
+import "./NavBar.css";
 
-const Navbar: React.FC = () => {
+const NavBar = () => {
   return (
-    <nav>
-      <img src={logo} alt="Logo" />
-      <h1>Coup de main Local</h1>
-      <ul>
-        <li>
-          <button type="button">Annuaire</button>
-        </li>
-        <li>
-          <button type="button">Annonces</button>
-        </li>
-      </ul>
+    <nav className="navbar">
+      <h1>Coup de main local</h1>
     </nav>
   );
 };
 
-export default Navbar;
+export default NavBar;
