@@ -1,17 +1,26 @@
+import type { DirectoryProps } from "../../types/type";
 import "./directoryCard.css";
 
-export default function DirectoryCard() {
+export default function DirectoryCard({
+  name,
+  category,
+  image,
+}: DirectoryProps) {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img src="" alt="directory" />
+        <img src={image} alt={name} />
       </div>
       <div className="card-content">
-        <div className="card-content-tag">
-          <code>Category</code>
-        </div>
+        {category ? (
+          <div className="card-content-tag">
+            <code>{category}</code>
+          </div>
+        ) : (
+          ""
+        )}
         <div className="card-content-title">
-          <h2>Directory Name</h2>
+          <h3>{name}</h3>
         </div>
       </div>
     </div>
