@@ -1,13 +1,15 @@
-import type React from "react";
-import Navbar from "./components/Navbar";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 
-const App: React.FC = () => {
-	return (
-		<div>
-			<Navbar />
-			{/* Other components and content */}
-		</div>
-	);
+const App = () => {
+  return (
+    <div>
+      <NavBar />
+      <Outlet />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
