@@ -67,6 +67,46 @@ app.use(router);
 
 /* ************************************************************************* */
 
+import data from "../data/data.json";
+
+// tout le fichier data
+
+app.get("/api/", (req, res) => {
+  res.json(data);
+});
+
+// services
+
+app.get("/api/services", (req, res) => {
+  res.json(data.services);
+});
+
+// directory
+
+app.get("/api/directory", (req, res) => {
+  res.json(data.directory);
+});
+
+// details services par id
+
+function oneService(id: string) {
+  return data.services.find((p) => p.id === +id);
+}
+
+app.get("/api/services/:id", (req, res) => {
+  res.json(oneService(req.params.id));
+});
+
+// details directory par id
+
+function oneDirectory(id: string) {
+  return data.directory.find((p) => p.id === +id);
+}
+
+app.get("/api/directory/:id", (req, res) => {
+  res.json(oneDirectory(req.params.id));
+});
+
 // Production-ready setup: What is it for?
 
 // The code includes sections to set up a production environment where the client and server are executed from the same processus.
