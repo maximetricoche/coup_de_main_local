@@ -1,28 +1,40 @@
+import { Link } from "react-router-dom";
+import type { ServicesProps } from "../../types/type";
 import "./ServicesCard.css";
 
-function ServicesCard() {
+export default function ServicesCard({
+  name,
+  prenom,
+  categorie,
+  image,
+  type,
+  description,
+}: ServicesProps) {
   return (
-    <figure className="ServicesDisplayCard">
-      <div className="ColumnServices">
-        <div className="ServicesImg">
-          <img src="" alt="Service" />
+    <Link to="/services" className="services-card-link">
+      <div className="card-containerServices">
+        <div className="card-image">
+          <img src={image} alt={name} />
         </div>
-        <div className="ServicesCategory">
-          <div className="ServicesCategoryIcon1">
-            <p>Categorie</p>
+        <div className="card-content">
+          {categorie ? (
+            <div className="card-content-tag">
+              <code>{categorie}</code>
+            </div>
+          ) : (
+            ""
+          )}
+          <div className="card-content-title">
+            <h3>{type}</h3>
+            <p>
+              {prenom} {name}{" "}
+            </p>
           </div>
-          <div className="ServicesCategoryIcon2">
-            <p>Echange</p>
+          <div className="card-content-button">
+            <p> {description}</p>
           </div>
         </div>
       </div>
-
-      <div className="ServicesDetails">
-        <h1>Titre</h1>
-        <p>Description</p>
-      </div>
-    </figure>
+    </Link>
   );
 }
-
-export default ServicesCard;

@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import Slider from "react-slick";
 import DirectoryCard from "../../components/directoryCard/DirectoryCard";
-import ServicesCard from "../../components/servicesCard/servicesCard";
+
 import type { Service } from "../../types/definitions";
 import type { DirectoryType } from "../../types/type";
 
@@ -27,14 +27,6 @@ const HomePage = () => {
           category={directory.categorie}
           image={directory.image}
         />
-      </div>
-    ));
-  };
-
-  const renderServices = () => {
-    return services.map((service) => (
-      <div className="card-container" key={service.id}>
-        <ServicesCard service={service} />
       </div>
     ));
   };
@@ -77,9 +69,8 @@ const HomePage = () => {
     <div className="home-page">
       <h2>Répertoire</h2>
       <Slider {...settings}>{renderDirectories()}</Slider>
-
       <h2>Services</h2>
-      <Slider {...settings}>{renderServices()}</Slider>
+      ""
     </div>
   );
 };
