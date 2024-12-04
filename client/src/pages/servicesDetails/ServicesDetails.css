@@ -28,11 +28,21 @@ h3 {
   margin: 1.5em;
 }
 
+.category-container-services {
+  display: flex;
+  justify-content: end;
+  gap: 1em;
+  height: 2em;
+}
+
 .categorie-services {
   background-color: coral;
   width: 13em;
   border-radius: 1em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .echange-services {
@@ -40,4 +50,7 @@ h3 {
   width: 13em;
   border-radius: 1em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

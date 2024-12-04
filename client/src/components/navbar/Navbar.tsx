@@ -13,11 +13,13 @@ const Navbar: React.FC = () => {
         padding: "10px",
       }}
     >
-      <img
-        src={logo}
-        alt="Logo"
-        style={{ height: "125px", marginLeft: "10px", marginRight: "10px" }}
-      />
+      <Link to="/">
+        <img
+          src={logo}
+          alt="Logo"
+          style={{ height: "125px", marginLeft: "10px", marginRight: "10px" }}
+        />
+      </Link>
       <h1 style={{ margin: 50, fontFamily: "Montserrat, sans-serif" }}>
         Coup de main Local
       </h1>
