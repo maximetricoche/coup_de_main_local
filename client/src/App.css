@@ -53,12 +53,6 @@ body {
   background-color: var(--bg-ligth-primary);
 }
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
-
 .app-container {
   display: flex;
   flex-direction: column;
