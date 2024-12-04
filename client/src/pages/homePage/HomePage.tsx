@@ -5,7 +5,7 @@ import type { Service } from "../../types/definitions";
 import type { DirectoryType } from "../../types/type";
 import "../../assets/images/entraide-locale.jpg";
 import "./HomePage.css";
-import bannerImage from "../../assets/images/entraide-locale.jpg";
+import bannerImage from "../../assets/images/entraide-banner.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -82,7 +82,7 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
-      <div>
+      <div className="image-banner">
         <img className="banner" src={bannerImage} alt="entraide" />
       </div>
       <h2 className="homePageDirectoryTitle">Répertoire</h2>
