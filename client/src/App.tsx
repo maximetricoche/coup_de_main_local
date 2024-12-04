@@ -4,13 +4,15 @@ import NavBar from "./components/navbar/Navbar";
 import "./App.css";
 
 const App = () => {
-  return (
-    <div>
-      <NavBar />
-      <Outlet />
-      <Footer />
-    </div>
-  );
+	return (
+		<div className="app-container">
+			<NavBar />
+			<div className="main-content">
+				<Outlet />
+			</div>
+			<Footer />
+		</div>
+	);
 };
 
 export default App;
