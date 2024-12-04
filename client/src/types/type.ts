@@ -14,3 +14,10 @@ export type DirectoryProps = {
   category?: string;
   image: string;
 };
+
+export type FilterDirectoryProps = {
+  setCurrentCategory: (category: string) => void;
+  setSearch: (search: string) => void;
+  categories: string[];
+  search: string;
+};

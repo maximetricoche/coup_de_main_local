@@ -22,11 +22,13 @@ const ServicesDetails = () => {
       </section>
 
       <section className="informations">
-        <div className="categorie-services">
-          <h3>{data.type}</h3>
-        </div>
-        <div className="echange-services">
-          <h3>{data.échange}</h3>
+        <div className="category-container-services">
+          <div className="categorie-services">
+            <h3>{data.type}</h3>
+          </div>
+          <div className="echange-services">
+            <h3>{data.échange}</h3>
+          </div>
         </div>
 
         <h2>

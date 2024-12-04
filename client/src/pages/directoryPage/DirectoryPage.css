@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 2rem;
+  padding: 1rem;
   width: 70%;
   margin: 0 auto;
 }
@@ -25,5 +25,10 @@ h2 {
   display: flex;
   justify-content: start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }

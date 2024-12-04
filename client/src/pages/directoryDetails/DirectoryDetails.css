@@ -19,14 +19,19 @@ h3 {
 
 .directory-details {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 2em auto;
   align-items: center;
   box-shadow: 5px 5px 15px 5px rgba(131, 132, 132, 0.2);
   border-radius: 2em;
   gap: 2em;
   padding: 2rem;
-  width: 70%;
+  width: fit-content;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .image {

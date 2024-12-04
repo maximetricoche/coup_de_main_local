@@ -7,7 +7,7 @@ body {
 nav {
   display: flex;
   align-items: center;
-  background-color: #9370db;
+  background-color: var(--bg-nav);
   padding: 10px;
 }
 
