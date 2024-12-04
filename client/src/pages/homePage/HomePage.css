@@ -1,0 +1,21 @@
+.home-page {
+  padding: 20px;
+}
+
+.directory-card-container,
+.services-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #9370db solid;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  margin: 0 5px;
+}
