@@ -1,6 +1,6 @@
 import "./ServicesCard.css";
 
-function ServicesCard() {
+function ServicesCard({ service }) {
   return (
     <figure className="ServicesDisplayCard">
       <div className="ColumnServices">
