@@ -14,7 +14,7 @@ export default function DirectoryCard({
       <div className="card-content">
         {category ? (
           <div className="card-content-tag">
-            <code>{category}</code>
+            <span>{category}</span>
           </div>
         ) : (
           ""

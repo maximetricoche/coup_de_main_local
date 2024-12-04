@@ -2,7 +2,6 @@
   background-color: var(--bg-light-secondary);
   border-radius: 10px;
   box-shadow: 5px 5px 15px 5px var(--shadow-primary);
-  color: #000;
   height: 380px;
   width: 300px;
   transition: all 0.2s ease;
@@ -29,6 +28,7 @@
 .card-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: fit-content;
   padding: 10px;
   gap: 1.8rem;
@@ -36,12 +36,11 @@
 
 .card-content-tag {
   height: 30%;
-  width: 100%;
+  width: fit-content;
   display: flex;
-  justify-content: end;
 }
 
-.card-content-tag span {
+.card-content-tag > span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +48,7 @@
   font-size: small;
   padding: 0 1rem;
   border-radius: 6px;
+  color: var(--text-primary);
   background-color: var(--tag-primary);
   border: solid 1px var(--tag-border-primary);
   text-transform: capitalize;
@@ -62,8 +62,8 @@
 }
 
 .card-content-tag {
-  background-color: #ffa07a;
-  border: solid 1px #915a44;
+  background-color: var(--tag-category);
+  border: solid 1px var(--tag-border-category);
   border-radius: 10px;
   font-size: small;
   justify-content: center;

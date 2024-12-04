@@ -26,10 +26,12 @@
   --select-secondary: #f8ad97;
 
   /* tag */
-  --tag-primary: #a8e6cf;
-  --tag-border-primary: #65b99a;
-  --tag-secondary: #e1c6e7;
-  --tag-border-secondary: #ab79b8;
+  --tag-category: #a8e6cf;
+  --tag-border-category: #65b99a;
+  --tag-type: #e1c6e7;
+  --tag-border-type: #ab79b8;
+  --tag-echange: #98d3e2;
+  --tag-border-echange: #65a4b4;
 }
 
 * {

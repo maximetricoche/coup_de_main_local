@@ -33,10 +33,10 @@ nav ul li {
 
 nav ul li button {
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 2em;
   border: none;
   background-color: var(--button-primary);
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: 1rem;
   cursor: pointer;
 }

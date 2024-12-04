@@ -24,6 +24,9 @@ const ServicesDetails = () => {
       <section className="informations">
         <div className="category-container-services">
           <div className="categorie-services">
+            <span>{data.categorie}</span>
+          </div>
+          <div className="type-services">
             <span>{data.type}</span>
           </div>
           <div className="echange-services">
@@ -31,12 +34,19 @@ const ServicesDetails = () => {
           </div>
         </div>
 
-        <h2>
-          {data.prenom} {data.nom} : {data.categorie}
-        </h2>
-        <p>{data.description}</p>
-        <h4>Adresse : {data.adresse} </h4>
-        <button type="button">Intéréssé ? Contactez-moi</button>
+        <div className="description-container-services">
+          <h2>
+            {data.prenom} {data.nom}
+          </h2>
+          <p>{data.description}</p>
+          <p>
+            <strong>Adresse</strong>
+            <span> {data.adresse}</span>
+          </p>
+        </div>
+        <button type="button" className="cta-services">
+          Contactez-moi
+        </button>
       </section>
     </main>
   );
