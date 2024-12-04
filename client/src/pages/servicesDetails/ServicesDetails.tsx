@@ -16,17 +16,23 @@ type serviceType = {
 const ServicesDetails = () => {
   const data: serviceType = useLoaderData() as serviceType;
   return (
-    <main className="wrapper">
+    <main className="services-details-wrapper">
       <section>
         <img src={data.image} alt={data.nom} className="image" />
       </section>
+
       <section className="informations">
+        <div className="categorie-services">
+          <h3>{data.type}</h3>
+        </div>
+        <div className="echange-services">
+          <h3>{data.échange}</h3>
+        </div>
+
         <h2>
           {data.prenom} {data.nom} : {data.categorie}
         </h2>
-        <h3>Catégorie : {data.type}</h3>
         <p>{data.description}</p>
-        <p>Type d'échange : {data.échange}</p>
         <h4>Adresse : {data.adresse} </h4>
         <button type="button">Intéréssé ? Contactez-moi</button>
       </section>

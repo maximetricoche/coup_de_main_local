@@ -20,13 +20,13 @@ const DirectoryDetails = () => {
         <img src={data.image} alt={data.nom} className="image" />
       </section>
       <section className="informations">
-        <div className="categorie">
-          <p>{data.categorie}</p>
+        <div className="categorie-directory">
+          <h3>{data.categorie}</h3>
         </div>
         <h2>{data.nom}</h2>
-        <h3>Adresse : {data.adresse} </h3>
-        <h3>Coordonnées téléphonique : {data.tel}</h3>
-        <h3>Horaires d'ouverture : {data.horaires_ouverture}</h3>
+        <p>Adresse : {data.adresse} </p>
+        <p>Coordonnées téléphonique : {data.tel}</p>
+        <p>Horaires d'ouverture : {data.horaires_ouverture}</p>
       </section>
     </main>
   );
