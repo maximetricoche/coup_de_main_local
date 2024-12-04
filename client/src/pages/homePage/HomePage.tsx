@@ -1,7 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import Slider from "react-slick";
 import DirectoryCard from "../../components/directoryCard/DirectoryCard";
-import ServicesCard from "../../components/servicesCard/servicesCard";
 import type { Service } from "../../types/definitions";
 import type { DirectoryType } from "../../types/type";
 import "../../assets/images/entraide-locale.jpg";
@@ -10,6 +9,8 @@ import "./HomePage.css";
 import bannerImage from "../../assets/images/entraide-locale.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "./HomePage.css";
 
 const HomePage = () => {
   const { directories, services } = useLoaderData() as {
@@ -35,9 +36,7 @@ const HomePage = () => {
 
   const renderServices = () => {
     return services.map((service) => (
-      <div className="card-container" key={service.id}>
-        <ServicesCard service={service} />
-      </div>
+      <div className="card-container" key={service.id} />
     ));
   };
 
