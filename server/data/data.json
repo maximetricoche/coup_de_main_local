@@ -6,7 +6,7 @@
       "prenom": "Alice",
       "adresse": "10 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je cherche quelqu'un pour m'aider à monter un meuble IKEA à domicile. En échange, je donne un canapé que je n'utilise plus. Si vous êtes bricoleur(se) et que vous avez une heure ou deux à consacrer, contactez-moi !",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "bricolage",
       "échange": "don d'objet",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -17,7 +17,7 @@
       "prenom": "Marc",
       "adresse": "15 Rue du Faubourg des Chartrons, 33000 Bordeaux",
       "description": "Je propose de garder des enfants le week-end ! En échange, je donne des jouets pour enfants que mes enfants n'utilisent plus. Si vous avez besoin de services de baby-sitting, contactez-moi !",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "baby-sitting",
       "échange": "don d'objet",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -28,7 +28,7 @@
       "prenom": "Sophie",
       "adresse": "7 Rue de la Gare d'Orléans, 33000 Bordeaux",
       "description": "J'ai besoin d'un coup de main pour porter des cartons lourds et les monter au troisième étage. En échange, je vous propose une bonne séance de yoga chez moi, ou je peux vous aider avec vos courses.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "déménagement",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -39,7 +39,7 @@
       "prenom": "Pierre",
       "adresse": "25 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je cherche quelqu'un pour m'aider à entretenir mon petit jardin. Si vous avez des connaissances en jardinage, je vous propose en échange de m'aider à porter un canapé que je viens de récupérer.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "jardinage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -50,7 +50,7 @@
       "prenom": "Élise",
       "adresse": "3 Rue des Charrons, 33000 Bordeaux",
       "description": "Je cherche d'urgence une personne pour m'aider à faire du ménage chez moi. En échange, je donne une petite bibliothèque en bois que je n'utilise plus. Si vous êtes disponible, contactez-moi !",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "ménage",
       "échange": "don d'objet",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -61,7 +61,7 @@
       "prenom": "Julien",
       "adresse": "12 Rue du Commerce, 33000 Bordeaux",
       "description": "J'échange mes compétences en informatique (réparations, installation de logiciels) contre des cours de cuisine ! Si vous êtes un passionné de cuisine et que vous pouvez me montrer quelques recettes, contactez-moi !",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "informatique",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -72,7 +72,7 @@
       "prenom": "Isabelle",
       "adresse": "18 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je cherche une personne pour m'aider à promener mon chien au Parc Bordelais. En échange, je vous propose de vous aider à faire du ménage chez vous ou de vous prêter un peu de matériel pour vos travaux.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "animaux",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -83,7 +83,7 @@
       "prenom": "Jacques",
       "adresse": "22 Rue de la Gare d'Orléans, 33000 Bordeaux",
       "description": "Je propose mes services de lavage de voiture à domicile en échange de services de jardinage. Si vous avez un jardin à entretenir, je suis à votre disposition pour vous aider avec ma tondeuse.",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "jardinage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -94,7 +94,7 @@
       "prenom": "Claire",
       "adresse": "6 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je cherche quelqu'un pour m'aider à porter des meubles du rez-de-chaussée au premier étage. En échange, je peux vous offrir un service de garde d'animaux pendant votre absence.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "déménagement",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -105,7 +105,7 @@
       "prenom": "Lucie",
       "adresse": "14 Rue des Charrons, 33000 Bordeaux",
       "description": "Je cherche un coiffeur ou une coiffeuse pour une coupe rapide à domicile. En échange, je peux vous offrir un cours de couture ou vous aider avec vos courses.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "coiffure",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -115,8 +115,8 @@
       "nom": "Lopez",
       "prenom": "Hélène",
       "adresse": "9 Quai des Chartrons, 33000 Bordeaux",
-      "description": "Je propose des séances de babysitting de quelques heures pendant la journée. En échange, je recherche une personne pour m'aider à réparer une fuite d'eau dans ma salle de bain.",
-      "categorie": "proposition de service",
+      "description": "Je propose des séances de babysitting de quelques heures pendant la journée. En échange, je Recherche une personne pour m'aider à réparer une fuite d'eau dans ma salle de bain.",
+      "categorie": "Proposition de service",
       "type": "baby-sitting",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -127,7 +127,7 @@
       "prenom": "Antoine",
       "adresse": "16 Rue des Chartrons, 33000 Bordeaux",
       "description": "Si vous avez des compétences en bricolage, je cherche une personne pour poser des étagères chez moi. En échange, je peux vous aider avec des tâches administratives comme remplir des formulaires ou faire des démarches.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "bricolage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -138,7 +138,7 @@
       "prenom": "Céline",
       "adresse": "13 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je propose un service de jardinage en échange de cours de guitare. Si vous pouvez m'apprendre à jouer quelques morceaux, je m'occupe de votre jardin pendant le week-end.",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "jardinage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -148,8 +148,8 @@
       "nom": "Garnier",
       "prenom": "Théo",
       "adresse": "5 Rue du Faubourg des Chartrons, 33000 Bordeaux",
-      "description": "Je recherche un coup de main pour déplacer un meuble lourd. Si vous avez un peu de temps, en échange, je peux vous aider à monter des meubles ou vous prêter ma perceuse.",
-      "categorie": "recherche de service",
+      "description": "Je Recherche un coup de main pour déplacer un meuble lourd. Si vous avez un peu de temps, en échange, je peux vous aider à monter des meubles ou vous prêter ma perceuse.",
+      "categorie": "Recherche de service",
       "type": "déménagement",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -160,7 +160,7 @@
       "prenom": "Nadia",
       "adresse": "8 Rue de la Gare d'Orléans, 33000 Bordeaux",
       "description": "Je propose des cours de danse (salsa, bachata) à domicile en échange de services de nettoyage. Si vous aimez danser ou apprendre des pas, contactez-moi !",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "danse",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -171,7 +171,7 @@
       "prenom": "François",
       "adresse": "20 Rue du Faubourg des Chartrons, 33000 Bordeaux",
       "description": "J'ai besoin d'un coup de main pour repeindre une pièce de ma maison. Je propose en échange des cours de guitare ou de la réparation d'électroménager.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "bricolage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -182,7 +182,7 @@
       "prenom": "Camille",
       "adresse": "4 Rue des Chartrons, 33000 Bordeaux",
       "description": "Je cherche une personne pour m'aider à monter une étagère murale. En échange, je vous propose de garder vos enfants ou de faire des courses pour vous.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "bricolage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -193,7 +193,7 @@
       "prenom": "Valérie",
       "adresse": "17 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je propose mes services pour aider à entretenir un jardin ou faire du nettoyage à domicile. En échange, je cherche un service de plomberie pour réparer une fuite.",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "ménage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -204,7 +204,7 @@
       "prenom": "Bernadette",
       "adresse": "27 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je propose des cours de peinture à l'huile en échange de cours de cuisine. Si vous êtes passionné(e) par la peinture, contactez-moi !",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "art",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -215,7 +215,7 @@
       "prenom": "Thierry",
       "adresse": "2 Rue de la Gare d'Orléans, 33000 Bordeaux",
       "description": "Je propose des services de nettoyage de maison. En échange, je peux vous aider à réparer vos appareils électroménagers ou vous prêter un outil pour le jardin.",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "ménage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -226,7 +226,7 @@
       "prenom": "Monique",
       "adresse": "11 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je propose de prêter ma tondeuse à gazon en échange d'un coup de main pour réparer un meuble. Si vous êtes bricoleur, contactez-moi !",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "jardinage",
       "échange": "prêt d'objet",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -237,7 +237,7 @@
       "prenom": "Juliette",
       "adresse": "23 Rue du Faubourg des Chartrons, 33000 Bordeaux",
       "description": "Je cherche quelqu'un pour nettoyer mes vitres. En échange, je peux vous offrir des cours de cuisine ou vous aider à faire des petites réparations.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "ménage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -248,7 +248,7 @@
       "prenom": "Franck",
       "adresse": "26 Quai des Chartrons, 33000 Bordeaux",
       "description": "J'ai besoin de quelqu'un pour tondre ma pelouse. En échange, je vous propose des cours de photographie ou un service de bricolage.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "jardinage",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/jeune-homme-souriant-veste-orange_1308-176720.jpg?t=st=1733258345~exp=1733261945~hmac=285634eaa499749a857c0e06f8ab5a53552b76a9d53fd2caf7e37111940d4184&w=360"
@@ -259,7 +259,7 @@
       "prenom": "Solène",
       "adresse": "30 Rue des Chartrons, 33000 Bordeaux",
       "description": "Je propose des services de babysitting en échange de services de ménage. Si vous avez besoin d'un coup de main, contactez-moi !",
-      "categorie": "proposition de service",
+      "categorie": "Proposition de service",
       "type": "baby-sitting",
       "échange": "service",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"
@@ -270,7 +270,7 @@
       "prenom": "Géraldine",
       "adresse": "31 Quai des Chartrons, 33000 Bordeaux",
       "description": "Je cherche une personne pour m'aider à monter un meuble IKEA. En échange, je peux vous prêter ma perceuse ou vous aider à faire vos courses.",
-      "categorie": "recherche de service",
+      "categorie": "Recherche de service",
       "type": "bricolage",
       "échange": "prêt d'objet",
       "image": "https://img.freepik.com/vecteurs-libre/femme-costume-traditionnel-floral_1308-176159.jpg?t=st=1733258360~exp=1733261960~hmac=63afafe3dbcbb5adb21c730556ac04902c1e7495c663ff4f2b6e11b39ec67e07&w=360"

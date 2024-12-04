@@ -39,8 +39,8 @@
 }
 
 .categorie-directory {
-  background-color: var(--tag-primary);
-  border: solid 1px var(--tag-border-primary);
+  background-color: var(--tag-category);
+  border: solid 1px var(--tag-border-category);
   padding: 0 1em;
   border-radius: 6px;
   text-align: center;
@@ -55,8 +55,8 @@
 
 .categorie-directory-mobile {
   display: none;
-  background-color: var(--tag-primary);
-  border: solid 1px var(--tag-border-primary);
+  background-color: var(--tag-category);
+  border: solid 1px var(--tag-border-category);
   padding: 0 1em;
   border-radius: 6px;
   text-align: center;
@@ -96,4 +96,8 @@
 
 .categorie-directory-description p > strong {
   font-size: 1.2em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.95em;
+  }
 }
