@@ -1,0 +1,48 @@
+.filter-services-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.filter-services-container .filter-services {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 3rem;
+}
+
+.filter-services-container .filter-services > select {
+  width: 99%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--select-primary);
+  font-size: 1rem;
+}
+
+.filter-services-container .filter-services > select:hover,
+.filter-services-container .filter-services > select:focus {
+  border: solid 1px var(--select-secondary);
+  outline: none;
+}
+
+.filter-services-container .search-services {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 3rem;
+}
+
+.filter-services-container .search-services input {
+  width: 99%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--select-primary);
+  font-size: 1rem;
+}
+
+.filter-services-container .search-services > input:hover,
+.filter-services-container .search-services > input:focus {
+  border: solid 1px var(--select-secondary);
+  outline: none;
+}

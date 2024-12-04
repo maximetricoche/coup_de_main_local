@@ -21,3 +21,32 @@ export type FilterDirectoryProps = {
   categories: string[];
   search: string;
 };
+
+export type ServicesType = {
+  id: number;
+  nom: string;
+  prenom: string;
+  adresse: string;
+  description: string;
+  categorie: string;
+  type: string;
+  échange: string;
+  image: string;
+  datas: ServicesType;
+};
+
+export type ServicesProps = {
+  name: string;
+  prenom: string;
+  categorie?: string;
+  image: string;
+  type: string;
+  description: string;
+};
+
+export type FilterServicesProps = {
+  setCurrentCategory: (category: string) => void;
+  setSearch: (search: string) => void;
+  categories: string[];
+  search: string;
+};
