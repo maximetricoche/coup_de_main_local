@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import Slider from "react-slick";
 import DirectoryCard from "../../components/directoryCard/DirectoryCard";
 import type { Service } from "../../types/definitions";
@@ -26,11 +26,13 @@ const HomePage = () => {
   const renderDirectories = () => {
     return directories.map((directory) => (
       <div className="card-container" key={directory.id}>
-        <DirectoryCard
-          name={directory.nom}
-          category={directory.categorie}
-          image={directory.image}
-        />
+        <Link to={`/directory/${directory.id}`} className="directory-card-link">
+          <DirectoryCard
+            name={directory.nom}
+            category={directory.categorie}
+            image={directory.image}
+          />
+        </Link>
       </div>
     ));
   };
@@ -38,7 +40,9 @@ const HomePage = () => {
   const renderServices = () => {
     return services.map((service) => (
       <div className="card-container" key={service.id}>
-        <ServicesCard service={service} />
+        <Link to={`/services/${service.id}`} className="service-card-link">
+          <ServicesCard service={service} />
+        </Link>
       </div>
     ));
   };
