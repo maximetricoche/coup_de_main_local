@@ -36,7 +36,7 @@ nav ul li button {
   border-radius: 5px;
   border: none;
   background-color: var(--button-primary);
-  color: var(--text-secondary);
+  color: black;
   font-size: 1rem;
   cursor: pointer;
 }

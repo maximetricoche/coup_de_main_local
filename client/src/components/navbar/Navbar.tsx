@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
         <Link to="/">
           <img src={logo} alt="Logo" />
         </Link>
-        <h1>Coup de main Local</h1>
+        <h1>Coup de main local</h1>
       </div>
       <ul>
         <li>
