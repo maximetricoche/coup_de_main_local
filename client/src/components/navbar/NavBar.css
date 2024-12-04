@@ -1,45 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
 nav {
   display: flex;
   align-items: center;
-  background-color: var(--bg-nav);
-  padding: 10px;
+  background-color: var(--bg-navbar);
+  padding: 2rem 4rem;
 }
 
-nav img {
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  text-transform: uppercase;
+}
+
+.brand-container img {
   height: 125px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-nav h1 {
-  margin: 50px;
-  font-family: "Montserrat", sans-serif;
+  margin: 0 10px;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 nav ul li {
-  margin-right: 10px;
+  text-align: center;
 }
 
 nav ul li button {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  background-color: #ffa07a;
-  color: white;
+  background-color: var(--button-primary);
+  color: var(--text-secondary);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+nav ul li button:hover {
+  background-color: var(--button-secondary);
 }
 
 /* Media query for mobile devices */
@@ -49,30 +52,28 @@ nav ul li button {
     align-items: center; /* Center align items */
   }
 
+  .brand-container {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
   nav img {
     height: 100px;
-    margin: 10px 0;
   }
 
   nav h1 {
     margin: 20px 0;
     font-size: 24px;
-    text-align: center; /* Center align text */
+    text-align: center;
   }
 
   nav ul {
-    flex-direction: column;
     width: 100%;
-    align-items: center; /* Center align items */
   }
 
   nav ul li {
     margin: 10px 0;
     width: 100%;
     text-align: center;
-  }
-
-  nav ul li button {
-    width: 100%;
   }
 }

@@ -1,45 +1,99 @@
-/* * {
-  border: 1px solid red;
-} */
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.5em;
-}
-
-.categorie-directory {
-  background-color: coral;
-  width: 13em;
-  border-radius: 1em;
-  text-align: center;
-}
-
 .directory-details {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 2em auto;
   align-items: center;
-  box-shadow: 5px 5px 15px 5px rgba(131, 132, 132, 0.2);
+  box-shadow: 5px 5px 15px 5px var(--shadow-primary);
   border-radius: 2em;
-  gap: 2em;
   padding: 2rem;
   width: fit-content;
+  max-width: 90%;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 }
 
-.image {
-  max-width: 20em;
-  max-height: 15em;
+.image-directory-details {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
   border-radius: 3em;
+
+  @media screen and (max-width: 768px) {
+    max-width: 10em;
+    max-height: 10em;
+  }
 }
 
 .informations {
-  margin: 1.5em;
+  display: flex;
+  gap: 2em;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.categorie-directory {
+  background-color: var(--tag-primary);
+  border: solid 1px var(--tag-border-primary);
+  padding: 0 1em;
+  border-radius: 6px;
+  text-align: center;
+  align-self: end;
+  font-size: small;
+  margin-right: 1.5em;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.categorie-directory-mobile {
+  display: none;
+  background-color: var(--tag-primary);
+  border: solid 1px var(--tag-border-primary);
+  padding: 0 1em;
+  border-radius: 6px;
+  text-align: center;
+  font-size: small;
+  margin-right: 1.5em;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    align-self: center;
+    margin: 0;
+  }
+}
+
+.categorie-directory-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8em;
+}
+
+.categorie-directory-description h2 {
+  font-size: 2em;
+  max-width: 70%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.6em;
+    max-width: 100%;
+  }
+}
+
+.categorie-directory-description p {
+  display: flex;
+  flex-direction: column;
+}
+
+.categorie-directory-description p > strong {
+  font-size: 1.2em;
 }
