@@ -24,10 +24,10 @@ const ServicesDetails = () => {
       <section className="informations">
         <div className="category-container-services">
           <div className="categorie-services">
-            <h3>{data.type}</h3>
+            <span>{data.type}</span>
           </div>
           <div className="echange-services">
-            <h3>{data.échange}</h3>
+            <span>{data.échange}</span>
           </div>
         </div>
 

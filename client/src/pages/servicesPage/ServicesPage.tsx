@@ -40,7 +40,7 @@ const ServicesPage = () => {
             <div className="category-card-container">
               {filteredItems.map((item) => (
                 <div key={item.id}>
-                  <Link to={`/directory/${item.id}`} className="link">
+                  <Link to={`/services/${item.id}`} className="link">
                     <ServicesCard service={item} />
                   </Link>
                 </div>

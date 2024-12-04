@@ -13,7 +13,6 @@ type directoryType = {
 
 const DirectoryDetails = () => {
   const data: directoryType = useLoaderData() as directoryType;
-  console.info(data);
   return (
     <main className="directory-details">
       <div className="categorie-directory">
