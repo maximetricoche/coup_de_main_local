@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 // Import the main app component
 import App from "./App";
+import NotFound from "./components/notFound/NotFound";
 import DirectoryDetails from "./pages/directoryDetails/DirectoryDetails";
 import DirectoryPage from "./pages/directoryPage/DirectoryPage";
 import HomePage from "./pages/homePage/HomePage";
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
           fetch(`http://localhost:3310/api/services/${params.id}`),
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
