@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./HomePage.css";
+import ServicesCard from "../../components/servicesCard/servicesCard";
 
 const HomePage = () => {
   const { directories, services } = useLoaderData() as {
@@ -36,7 +37,9 @@ const HomePage = () => {
 
   const renderServices = () => {
     return services.map((service) => (
-      <div className="card-container" key={service.id} />
+      <div className="card-container" key={service.id}>
+        <ServicesCard service={service} />
+      </div>
     ));
   };
 
