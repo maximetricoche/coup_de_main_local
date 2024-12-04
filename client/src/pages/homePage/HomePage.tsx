@@ -4,10 +4,14 @@ import DirectoryCard from "../../components/directoryCard/DirectoryCard";
 
 import type { Service } from "../../types/definitions";
 import type { DirectoryType } from "../../types/type";
+import "../../assets/images/entraide-locale.jpg";
 
 import "./HomePage.css";
+import bannerImage from "../../assets/images/entraide-locale.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "./HomePage.css";
 
 const HomePage = () => {
   const { directories, services } = useLoaderData() as {
@@ -28,6 +32,12 @@ const HomePage = () => {
           image={directory.image}
         />
       </div>
+    ));
+  };
+
+  const renderServices = () => {
+    return services.map((service) => (
+      <div className="card-container" key={service.id} />
     ));
   };
 
@@ -71,6 +81,18 @@ const HomePage = () => {
       <Slider {...settings}>{renderDirectories()}</Slider>
       <h2>Services</h2>
       ""
+      <div>
+        <img className="banner" src={bannerImage} alt="entraide" />
+      </div>
+      <h2 className="homePageDirectoryTitle">Répertoire</h2>
+      <Slider className="sliderStyle" {...settings}>
+        {renderDirectories()}
+      </Slider>
+
+      <h2 className="homePageServicesTitle">Services</h2>
+      <Slider className="sliderStyle" {...settings}>
+        {renderServices()}
+      </Slider>
     </div>
   );
 };

@@ -10,3 +10,45 @@
   color: black;
   box-shadow: black 0px 0px 10px;
 }
+
+.ColumnServices {
+  display: flex;
+  flex-direction: row;
+}
+
+.ServicesCategory {
+  padding-left: 2em;
+}
+
+.ServicesCategoryIcon1,
+.ServicesCategoryIcon2 {
+  background-color: #ffa07a;
+  border: solid 1px #915a44;
+  border-radius: 10px;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.ServicesImg {
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.ServicesDetails {
+  margin: -8em 1em 0 1em;
+}
+
+.ServicesTitle {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.service-card-link {
+  text-decoration: none;
+  text-align: justify;
+}
