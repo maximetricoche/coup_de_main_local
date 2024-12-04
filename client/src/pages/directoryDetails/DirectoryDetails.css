@@ -1,0 +1,40 @@
+/* * {
+  border: 1px solid red;
+} */
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.categorie-directory {
+  background-color: coral;
+  width: 13em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.directory-details {
+  display: flex;
+  flex-direction: row;
+  margin: 2em auto;
+  align-items: center;
+  box-shadow: 5px 5px 15px 5px rgba(131, 132, 132, 0.2);
+  border-radius: 2em;
+  gap: 2em;
+  padding: 2rem;
+  width: 70%;
+}
+
+.image {
+  max-width: 20em;
+  max-height: 15em;
+  border-radius: 3em;
+}
+
+.informations {
+  margin: 1.5em;
+}
