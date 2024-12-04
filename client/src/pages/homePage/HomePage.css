@@ -23,8 +23,13 @@
   justify-content: center;
 }
 
-.card-container {
+.card-container1 {
   margin: 0 5px;
+}
+
+.card-container2 {
+  margin: 0 5px;
+  height: 50%;
 }
 
 .homePageDirectoryTitle {
