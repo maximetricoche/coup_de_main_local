@@ -4,7 +4,6 @@ import DirectoryCard from "../../components/directoryCard/DirectoryCard";
 import type { Service } from "../../types/definitions";
 import type { DirectoryType } from "../../types/type";
 import "../../assets/images/entraide-locale.jpg";
-
 import "./HomePage.css";
 import bannerImage from "../../assets/images/entraide-locale.jpg";
 import "slick-carousel/slick/slick.css";
@@ -25,7 +24,7 @@ const HomePage = () => {
 
   const renderDirectories = () => {
     return directories.map((directory) => (
-      <div className="card-container" key={directory.id}>
+      <div className="card-container1" key={directory.id}>
         <Link to={`/directory/${directory.id}`} className="directory-card-link">
           <DirectoryCard
             name={directory.nom}
@@ -39,7 +38,7 @@ const HomePage = () => {
 
   const renderServices = () => {
     return services.map((service) => (
-      <div className="card-container" key={service.id}>
+      <div className="card-container2" key={service.id}>
         <Link to={`/services/${service.id}`} className="service-card-link">
           <ServicesCard service={service} />
         </Link>
