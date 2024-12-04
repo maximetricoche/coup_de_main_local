@@ -5,11 +5,10 @@ import ServicesCard from "../../components/servicesCard/servicesCard";
 import type { Service } from "../../types/definitions";
 import type { DirectoryType } from "../../types/type";
 import "../../assets/images/entraide-locale.jpg";
-
 import "./HomePage.css";
 import bannerImage from "../../assets/images/entraide-locale.jpg";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick.css";
+
 import Slider from "react-slick";
 
 const HomePage = () => {
@@ -37,7 +36,7 @@ const HomePage = () => {
   const renderServices = () => {
     return services.map((service) => (
       <div className="card-container" key={service.id}>
-        <ServicesCard />
+        <ServicesCard service={service} />
       </div>
     ));
   };

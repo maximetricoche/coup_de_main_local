@@ -19,7 +19,7 @@ const DirectoryDetails = () => {
       <div className="categorie-directory">
         <span>{data.categorie}</span>
       </div>
-      <section className="informations">
+      <section className="informations-directory-details">
         <img
           src={data.image}
           alt={data.nom}
