@@ -60,3 +60,18 @@
   text-align: center;
   align-content: center;
 }
+
+.card-content-tag {
+  background-color: #ffa07a;
+  border: solid 1px #915a44;
+  border-radius: 10px;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  padding: 0.5em;
+}
+
+.directory-card-link {
+  text-decoration: none;
+}
