@@ -25,13 +25,13 @@
   width: 99%;
   padding: 0.5rem;
   border-radius: 6px;
-  border: 1px solid #a0a0a0;
+  border: 1px solid var(--select-primary);
   font-size: 1rem;
 }
 
 .filter-directory-container .filter-directory > select:hover,
 .filter-directory-container .filter-directory > select:focus {
-  border: solid 2px #ffa07a;
+  border: solid 1px var(--select-secondary);
   outline: none;
 }
 
@@ -50,12 +50,12 @@
   width: 99%;
   padding: 0.5rem;
   border-radius: 6px;
-  border: 1px solid #a0a0a0;
+  border: 1px solid var(--select-primary);
   font-size: 1rem;
 }
 
 .filter-directory-container .search-directory > input:hover,
 .filter-directory-container .search-directory > input:focus {
-  border: solid 2px #ffa07a;
+  border: solid 1px var(--select-secondary);
   outline: none;
 }

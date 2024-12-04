@@ -12,13 +12,9 @@ export default function DirectoryCard({
         <img src={image} alt={name} />
       </div>
       <div className="card-content">
-        {category ? (
-          <div className="card-content-tag">
-            <code>{category}</code>
-          </div>
-        ) : (
-          ""
-        )}
+        <div className="card-content-tag">
+          {category ? <span>{category}</span> : ""}
+        </div>
         <div className="card-content-title">
           <h3>{name}</h3>
         </div>

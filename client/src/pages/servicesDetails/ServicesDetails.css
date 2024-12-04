@@ -11,7 +11,7 @@ h3 {
   flex-direction: row;
   margin: 2em auto;
   align-items: center;
-  box-shadow: 5px 5px 15px 5px rgba(131, 132, 132, 0.2);
+  box-shadow: 5px 5px 15px 5px var(--shadow-primary);
   border-radius: 2em;
   gap: 2em;
   padding: 2rem;

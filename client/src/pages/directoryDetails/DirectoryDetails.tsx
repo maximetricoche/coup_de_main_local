@@ -16,17 +16,31 @@ const DirectoryDetails = () => {
   console.info(data);
   return (
     <main className="directory-details">
-      <section>
-        <img src={data.image} alt={data.nom} className="image" />
-      </section>
+      <div className="categorie-directory">
+        <span>{data.categorie}</span>
+      </div>
       <section className="informations">
-        <div className="categorie-directory">
-          <h3>{data.categorie}</h3>
+        <img
+          src={data.image}
+          alt={data.nom}
+          className="image-directory-details"
+        />
+        <div className="categorie-directory-description">
+          <div className="categorie-directory-mobile">
+            <span>{data.categorie}</span>
+          </div>
+          <h2>{data.nom}</h2>
+          <p>
+            <strong>Adresse</strong> <span>{data.adresse}</span>
+          </p>
+          <p>
+            <strong>Tel.</strong> <span>{data.tel}</span>
+          </p>
+          <p>
+            <strong>Horaires</strong>
+            <span>{data.horaires_ouverture}</span>
+          </p>
         </div>
-        <h2>{data.nom}</h2>
-        <p>Adresse : {data.adresse} </p>
-        <p>Coordonnées téléphonique : {data.tel}</p>
-        <p>Horaires d'ouverture : {data.horaires_ouverture}</p>
       </section>
     </main>
   );
