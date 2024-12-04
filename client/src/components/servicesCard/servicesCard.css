@@ -10,6 +10,18 @@
   color: black;
   box-shadow: black 0px 0px 10px;
 }
+.card-containerServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+  box-shadow: black 0px 0px 10px;
+}
 
 .ColumnServices {
   display: flex;

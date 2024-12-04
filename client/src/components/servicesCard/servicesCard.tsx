@@ -22,6 +22,7 @@ function ServicesCard({ service }: { service: Service }) {
         <h1 className="ServicesTitle">
           {service.nom} {service.prenom}
         </h1>
+        <p>{service.type}</p>
         <p>{service.description}</p>
       </div>
     </figure>
