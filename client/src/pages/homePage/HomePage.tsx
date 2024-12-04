@@ -34,7 +34,7 @@ const HomePage = () => {
   const renderServices = () => {
     return services.map((service) => (
       <div className="card-container" key={service.id}>
-        <ServicesCard service={service} />
+        <ServicesCard />
       </div>
     ));
   };
