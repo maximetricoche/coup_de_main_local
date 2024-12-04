@@ -16,4 +16,5 @@ export type Service = {
   categorie: string;
   type: string;
   échange: string;
+  image: string;
 };
