@@ -1,5 +1,5 @@
 import type { Service } from "../../types/definitions";
-import "./ServicesCard.css";
+import "./servicesCard.css";
 
 function ServicesCard({ service }: { service: Service }) {
   return (
