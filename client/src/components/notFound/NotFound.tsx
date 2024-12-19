@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import image from "../../assets/images/404.svg";
-import "./NotFound.css";
+import "./notFound.css";
 
 export default function NotFound() {
   return (
