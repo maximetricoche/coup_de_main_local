@@ -32,7 +32,9 @@ const router = createBrowserRouter([
         path: "/",
         element: <HomePage />,
         loader: async () => {
-          const response = await fetch("http://localhost:3310/api/");
+          const response = await fetch(
+            "https://coup-de-main-local-client-93tkz6ai5-maximetricoches-projects.vercel.app/api/",
+          );
           const data = await response.json();
 
           return {
@@ -44,24 +46,34 @@ const router = createBrowserRouter([
       {
         path: "/directory",
         element: <DirectoryPage />,
-        loader: () => fetch("http://localhost:3310/api/directory"),
+        loader: () =>
+          fetch(
+            "https://coup-de-main-local-client-93tkz6ai5-maximetricoches-projects.vercel.app/api/directory",
+          ),
       },
       {
         path: "/services",
         element: <ServicesPage />,
-        loader: () => fetch("http://localhost:3310/api/services"),
+        loader: () =>
+          fetch(
+            "https://coup-de-main-local-client-93tkz6ai5-maximetricoches-projects.vercel.app/api/services",
+          ),
       },
       {
         path: "/directory/:id",
         element: <DirectoryDetails />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/api/directory/${params.id}`),
+          fetch(
+            `https://coup-de-main-local-client-93tkz6ai5-maximetricoches-projects.vercel.app/api/directory/${params.id}`,
+          ),
       },
       {
         path: "/services/:id",
         element: <ServicesDetails />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/api/services/${params.id}`),
+          fetch(
+            `https://coup-de-main-local-client-93tkz6ai5-maximetricoches-projects.vercel.app/api/services/${params.id}`,
+          ),
       },
     ],
   },
